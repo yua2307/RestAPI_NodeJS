@@ -1,0 +1,35 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "restAPI NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yua2307/RestAPI_NodeJS.git"
+  },
+  "keywords": [
+    "restAPI",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "VanChinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yua2307/RestAPI_NodeJS/issues"
+  },
+  "homepage": "https://github.com/yua2307/RestAPI_NodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "mongoose": "^6.0.7",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
